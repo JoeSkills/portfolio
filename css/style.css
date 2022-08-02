@@ -74,7 +74,7 @@ body {
   transform: translate(0px, 100px);
   border-radius: 20px;
 
-  border: 1px solid hsla(81, 83%, 73%, 1);
+  border: 1px solid white;
 }
 .bg-rec-me {
   width: 12.5rem;
@@ -87,7 +87,7 @@ body {
 
   background-color: var(--purple-bg);
 
-  border: 1px solid hsla(81, 83%, 73%, 1);
+  border: 1px solid white;
   border-radius: 20px;
 }
 /*arrangement for about section*/
