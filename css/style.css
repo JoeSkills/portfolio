@@ -229,11 +229,12 @@ body {
   text-align: center;
   position: absolute;
   top: 1800px;
+  z-index: 4;
 }
 /*making page responsive for mobile*/
 @media screen and (max-width: 400px) {
   body {
-    width: 100%;
+    width: 100vw;
     height: fit-content;
     display: block;
 
