@@ -14,11 +14,12 @@
 /*styling for links*/
 a {
   text-decoration: none;
-  color: hsla(81, 83%, 73%, 1);
+  color: white;
 }
 a:hover {
   text-decoration: underline;
 }
+
 body {
   width: 100%;
   display: grid;
@@ -39,7 +40,7 @@ body {
 /*styling for headings*/
 .h {
   font-size: 2rem;
-  color: hsla(81, 83%, 73%, 1);
+  color: white;
 }
 /*styling for pics*/
 .pic {
@@ -72,6 +73,8 @@ body {
 .me {
   transform: translate(0px, 100px);
   border-radius: 20px;
+
+  border: 1px solid hsla(81, 83%, 73%, 1);
 }
 .bg-rec-me {
   width: 12.5rem;
@@ -234,7 +237,7 @@ body {
 /*making page responsive for mobile*/
 @media screen and (max-width: 400px) {
   body {
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     display: block;
 
