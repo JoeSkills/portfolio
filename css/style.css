@@ -1,6 +1,7 @@
 :root {
   --purple-bg: hsla(240, 100%, 82%, 1);
 }
+
 /*for proper width and height */
 * {
   box-sizing: border-box;
@@ -23,11 +24,13 @@ a:hover {
 body {
   width: 100%;
   display: grid;
-  grid-template-columns: 100vw;
+  grid-template-columns: 100%;
   grid-template-areas:
-    'hero hero hero'
-    'about about about'
-    'projects  projects  projects';
+    'hero hero hero hero hero'
+    'about about about about about'
+    'projects  projects  projects projects projects'
+    'find-me find-me find-me find-me find-me'
+    'credits credits credits credits credits';
   justify-content: center;
 
   background: var(--purple-bg);
@@ -210,6 +213,8 @@ body {
 }
 /*arranging the find me section*/
 .find-me {
+  grid-area: find-me;
+
   color: white;
 
   position: absolute;
@@ -228,9 +233,13 @@ body {
   top: 110px;
 }
 .credit {
-  width: 100%;
+  width: fit-content;
+  grid-area: credits;
+
   text-align: center;
+
   position: absolute;
+  right: 40%;
   top: 1800px;
   z-index: 4;
 }
@@ -292,7 +301,7 @@ body {
     z-index: 1;
   }
   .about {
-    width: 100vw;
+    width: 100%;
     height: 630px;
     display: block;
 
@@ -376,7 +385,8 @@ body {
     transform: translate(0px, 1650px);
   }
   .credit {
-    top: 2200px;
+    position: static;
+    transform: translate(0, 1800px);
   }
   .lf {
     position: static;
@@ -453,6 +463,8 @@ body {
     top: 600px;
 
     text-align: center;
+
+    overflow-x: hidden;
   }
   .projects {
     display: block;
@@ -527,7 +539,8 @@ body {
     transform: translate(0px, 1650px);
   }
   .credit {
-    top: 2200px;
+    position: static;
+    transform: translate(0, 1800px);
   }
   .lf {
     position: static;
