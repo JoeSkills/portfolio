@@ -20,7 +20,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 body {
   width: 100%;
   display: grid;
