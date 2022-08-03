@@ -311,6 +311,8 @@ body {
     text-align: center;
 
     overflow-x: hidden;
+
+    border-radius: 10px 0 0 10px;
   }
   .projects {
     display: block;
@@ -465,6 +467,8 @@ body {
     text-align: center;
 
     overflow-x: hidden;
+
+    border-radius: 10px 0 0 10px;
   }
   .projects {
     display: block;
