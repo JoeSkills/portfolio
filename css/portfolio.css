@@ -29,7 +29,6 @@ body {
     'hero'
     'about'
     'projects'
-    'divide'
     'find-me'
     'credit';
 
@@ -115,6 +114,12 @@ img {
     'w-l'
     'e-l';
   grid-area: find-me;
+
+  background-color: var(--color);
+  color: var(--bg);
+
+  margin-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 .credit {
   width: 100%;
@@ -241,28 +246,19 @@ img {
   width: 1.875rem;
   height: 1.875rem;
 }
-.d-c {
-  height: 0.3125rem;
 
-  background-color: var(--color);
-
-  border: none;
-  border-radius: 1.25rem;
-}
-.divide {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 50%;
-  grid-area: divide;
-
-  background-color: var(--bg);
-
-  margin-top: 1.875rem;
-}
 .find-t {
   display: grid;
   justify-content: center;
   grid-area: find-me-t;
+}
+.find-t-i {
+  background-color: var(--bg);
+  color: var(--color);
+
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+  border-radius: 0.625rem;
 }
 .l-w {
   display: grid;
