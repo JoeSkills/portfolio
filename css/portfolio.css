@@ -101,7 +101,9 @@ img {
   grid-template-areas:
     'project-title project-title'
     'project-desc project-img'
-    'project-l project-img';
+    'project-l project-img'
+    'project-desc2 project-img2'
+    'project-l2 project-img2';
   grid-template-rows: auto;
   grid-row-gap: 0.625rem;
   justify-content: center;
@@ -214,6 +216,22 @@ img {
   grid-area: project-title;
 
   margin-top: 0.625rem;
+}
+.pjs-desc2 {
+  grid-area: project-desc2;
+
+  margin-top: 1rem;
+}
+.c-l2 {
+  grid-area: project-l2;
+}
+.pjs-img2 {
+  width: 6.25rem;
+
+  grid-area: project-img2;
+
+  margin-top: 1rem;
+  margin-left: 5rem;
 }
 .pjs-desc {
   grid-area: project-desc;
