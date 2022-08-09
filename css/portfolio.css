@@ -307,6 +307,12 @@ img {
     width: 9.375rem;
     height: 6.25rem;
   }
+  .pjs-img2 {
+    width: 3.125rem;
+    height: 6.25rem;
+
+    margin: 3.125rem;
+  }
   .git-img {
     margin: 0;
     margin-top: 0.625rem;
